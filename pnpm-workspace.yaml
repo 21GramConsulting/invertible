@@ -2,3 +2,4 @@ packages:
   - "utility"
   - "invertible"
   - "pipe"
+  - "pipe/convenience"

@@ -48,6 +48,9 @@
       ],
       "@21gram-consulting/invertible/pipe": [
         "pipe/src/index.ts"
+      ],
+      "@21gram-consulting/invertible/pipe/convenience": [
+        "pipe/convenience/src/index.ts"
       ]
     }
   },

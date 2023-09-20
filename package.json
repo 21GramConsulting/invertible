@@ -27,6 +27,9 @@
       ],
       "pipe": [
         "./pipe/dist/index.d.ts"
+      ],
+      "pipe/convenience": [
+        "./pipe/convenience/dist/index.d.ts"
       ]
     }
   },
@@ -42,6 +45,11 @@
       "module": "./pipe/dist/index.esm.js",
       "require": "./pipe/dist/index.js"
     },
+    "./pipe/convenience": {
+      "import": "./pipe/convenience/dist/index.mjs",
+      "module": "./pipe/convenience/dist/index.esm.js",
+      "require": "./pipe/convenience/dist/index.js"
+    },
     "./utility": {
       "import": "./utility/dist/index.mjs",
       "module": "./utility/dist/index.esm.js",
@@ -51,9 +59,11 @@
   "files": [
     "invertible/dist/**/*.{js,d.ts,mjs,d.mts}",
     "pipe/dist/**/*.{js,d.ts,mjs,d.mts}",
+    "pipe/convenience/dist/**/*.{js,d.ts,mjs,d.mts}",
     "utility/dist/**/*.{js,d.ts,mjs,d.mts}",
     "invertible/package.json",
     "pipe/package.json",
+    "pipe/convenience/package.json",
     "utility/package.json"
   ],
   "homepage": "https://21gramconsulting.github.io/invertible/",
@@ -71,7 +81,7 @@
   "scripts": {
     "csb:install": "corepack enable && corepack pnpm i",
     "csb:build": "pnpm build",
-    "clean": "pnpm -r run clean && rimraf coverage var tmp include/*/",
+    "clean": "pnpm -r run clean && rimraf coverage var tmp",
     "build": "pnpm -r run build",
     "attw": "attw --pack",
     "types:check": "pnpm -r run types:check",
