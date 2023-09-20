@@ -4,15 +4,17 @@
   "include": [
     "invertible/src",
     "pipe/src",
+    "pipe/convenience/src",
     "utility/src",
     "global.d.ts"
   ],
   "typedocOptions": {
-    "name": "Invertible Functions & Pipelines",
+    "name": "Invertible Functions and Pipelines",
     "includeVersion": true,
     "entryPoints": [
       "invertible/src/index.ts",
       "pipe/src/index.ts",
+      "pipe/convenience/src/index.ts",
       "utility/src/index.ts"
     ],
     "entryPointStrategy": "expand",

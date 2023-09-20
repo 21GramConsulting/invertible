@@ -1,1 +1,1 @@
-export default `WIP`;
+export * from './Value';

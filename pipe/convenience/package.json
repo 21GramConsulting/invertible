@@ -13,5 +13,9 @@
     "build": "bunchee",
     "types:check": "tsc --noEmit",
     "clean": "rimraf dist"
+  },
+  "peerDependencies": {
+    "@21gram-consulting/invertible": "*",
+    "@21gram-consulting/pipe": "*"
   }
 }
