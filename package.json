@@ -28,8 +28,8 @@
       "pipe": [
         "./pipe/dist/index.d.ts"
       ],
-      "convenience": [
-        "./convenience/dist/index.d.ts"
+      "pipe/convenience": [
+        "./pipe/convenience/dist/index.d.ts"
       ]
     }
   },
@@ -45,10 +45,10 @@
       "module": "./pipe/dist/index.esm.js",
       "require": "./pipe/dist/index.js"
     },
-    "./convenience": {
-      "import": "./convenience/dist/index.mjs",
-      "module": "./convenience/dist/index.esm.js",
-      "require": "./convenience/dist/index.js"
+    "./pipe/convenience": {
+      "import": "./pipe/convenience/dist/index.mjs",
+      "module": "./pipe/convenience/dist/index.esm.js",
+      "require": "./pipe/convenience/dist/index.js"
     },
     "./utility": {
       "import": "./utility/dist/index.mjs",
@@ -59,11 +59,11 @@
   "files": [
     "invertible/dist/**/*.{js,d.ts,mjs,d.mts}",
     "pipe/dist/**/*.{js,d.ts,mjs,d.mts}",
-    "convenience/dist/**/*.{js,d.ts,mjs,d.mts}",
+    "pipe/convenience/dist/**/*.{js,d.ts,mjs,d.mts}",
     "utility/dist/**/*.{js,d.ts,mjs,d.mts}",
     "invertible/package.json",
     "pipe/package.json",
-    "convenience/package.json",
+    "pipe/convenience/package.json",
     "utility/package.json"
   ],
   "homepage": "https://21gramconsulting.github.io/invertible/",

@@ -11,8 +11,8 @@
       "@21gram-consulting/invertible/pipe": [
         "pipe/src/index.ts"
       ],
-      "@21gram-consulting/invertible/convenience": [
-        "convenience/src/index.ts"
+      "@21gram-consulting/invertible/pipe/convenience": [
+        "pipe/convenience/src/index.ts"
       ],
       "#invertible/*": [
         "invertible/src/*"
@@ -23,8 +23,8 @@
       "#pipe/*": [
         "pipe/src/*"
       ],
-      "#convenience/*": [
-        "convenience/src/*"
+      "#pipe/convenience/*": [
+        "pipe/convenience/src/*"
       ]
     }
   },
