@@ -12,6 +12,6 @@
     "watch": "bunchee -w",
     "build": "bunchee",
     "types:check": "tsc --noEmit",
-    "clean": "rimraf lib include"
+    "clean": "rimraf dist"
   }
 }

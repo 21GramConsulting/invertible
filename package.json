@@ -71,7 +71,7 @@
   "scripts": {
     "csb:install": "corepack enable && corepack pnpm i",
     "csb:build": "pnpm build",
-    "clean": "pnpm -r run clean && rimraf lib coverage var tmp include/*/",
+    "clean": "pnpm -r run clean && rimraf coverage var tmp include/*/",
     "build": "pnpm -r run build",
     "attw": "attw --pack",
     "types:check": "pnpm -r run types:check",
